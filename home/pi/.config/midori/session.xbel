@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel PUBLIC "+//IDN python.org//DTD XML Bookmark Exchange Language 1.0//EN//XML" "http://www.python.org/topics/xml/dtds/xbel-1.0.dtd">
+<xbel version="1.0" xmlns:midori="http://www.twotoasts.de">
+<info>
+<metadata midori:current="2" owner="http://www.twotoasts.de"/>
+</info>
+<bookmark href="http://localhost/yana-server/index.php?init=1&amp;error=le+compte+sp%C3%A9cifi%C3%A9+est+inexistant">
+<title>‪Yana Server 3.0.6</title>
+<info>
+<metadata midori:history-step="2" midori:icon="http://localhost/yana-server/templates/default/img/favicon.png" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+</xbel>
