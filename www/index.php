@@ -1,7 +1,7 @@
 <?php
 require_once("includes/session.php");
-$description = 'Grâce au webmail de mixmail, protégez votre vie privée ! Mixmail ne lit pas vos mails ! Services gratuits, payés grâce à des donations. Webmail qui ne lit pas vos mails.';
-$keywords = 'webmail, mixmail, vie privée, protection, anonyme';
+$description = 'Accueil, projet de domotique - TPE';
+$keywords = '';
 $title = 'Accueil';
 $accueil = 'class="active"';
 ?>
@@ -25,9 +25,9 @@ $accueil = 'class="active"';
         <div class="panel panel-primary">
   		<div class="panel-body">
           <h2>Système</h2>
-		<?php $monfichier = fopen('/var/www/includes/state-ssystem.txt', 'r');
-		$ligne = fgetc($monfichier);
-		fclose($monfichier); 
+		<?php $file = fopen('/var/www/includes/state-ssystem.txt', 'r');
+		$ligne = fgetc($file);
+		fclose($file); 
 		if ($ligne === "1") {
 		$state = '<span class="label label-success">Activé</span>';
 		}else{
