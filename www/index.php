@@ -19,8 +19,6 @@ $accueil = 'class="active"';
       <div class="jumbotron">
         <h1>Tableau de bord</h1>
         <p class="lead"></p>
-        <!----<p class="lead">Grâce au webmail de <strong>Mixmail</strong>, protégez votre vie privée ! Mixmail ne lit pas vos mails ! En plus, le service est gratuit (financement par des dons) et l'espace utilisé n'est pas limité par un quota.</p>
-        <p><a class="btn btn-lg btn-primary" href="/inscription/">Essayer maintenant</a></p> ---!>
       </div>
       <div class="row">
         <div class="col-lg-4">
